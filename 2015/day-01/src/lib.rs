@@ -18,7 +18,7 @@ pub fn process_part2(input: &str) -> usize {
             return index + 1;
         }
     }
-    usize::MAX  
+    usize::MAX
 }
 
 fn convert_braces_to_direction(brace: char) -> i32 {
