@@ -1,7 +1,7 @@
-use day_04::process_part2;
+use day_04::process_part;
 use std::fs;
 
 fn main() {
     let file = fs::read_to_string("./input.txt").unwrap();
-    println!("{}", process_part2(file));
+    println!("{}", process_part(file, "000000"));
 }
